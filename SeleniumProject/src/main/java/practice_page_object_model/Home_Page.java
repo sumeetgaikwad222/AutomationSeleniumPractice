@@ -46,4 +46,8 @@ public class Home_Page {
 		Thread.sleep(3000);
 		logout.click();
 	}
+	public void printcheck()
+	{
+		System.out.println("Sumeet Gaikwad :- this is added from the github to check pull request");
+	}
 }
