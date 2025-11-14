@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Package_One.OpenChromeBrowser">
+      <class name="package_package.Script_Class">
         <methods>
-          <include name="test1"/>
-          <include name="close_browser"/>
-          <include name="beforetest"/>
+          <include name="run"/>
         </methods>
-      </class> <!-- Package_One.OpenChromeBrowser -->
+      </class> <!-- package_package.Script_Class -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
