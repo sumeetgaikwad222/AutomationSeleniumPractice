@@ -34,12 +34,9 @@ public class File {
 		FileOutputStream foi = new FileOutputStream("./data/ValidExcelSheet.xlsx.xlsx");
 		wb1.write(foi);
 	}
-	public String readProperty(String proppath, String key) throws IOException
-	{
-		FileInputStream prop = new FileInputStream(proppath);
-		Properties propertiest = new Properties();
-		propertiest.load(prop);
-		String value = propertiest.getProperty(key);
-		return value;
+	public String readProperty(String config, String string) {
+		// TODO Auto-generated method stub
+		return null;
 	}
+	
 }
